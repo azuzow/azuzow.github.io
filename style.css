@@ -567,13 +567,13 @@ xclip
 
 
 .btn-hover-new{
-	color: #333333;
-	-webkit-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
+	color: #ffffff;
+	-webkit-transition: all 0s;
+	-moz-transition: all 0s;
+	-o-transition: all 0s;
+	transition: all 0s;
 	position: relative;
-	border: 1px solid #333333;
+	border: 1px solid #ffffff;
 	overflow: hidden;
 	padding: 0px 18px;
 	display: inline-block;
@@ -599,22 +599,22 @@ xclip
     opacity: 0;
     -webkit-transform: translate(-30%, 0);
     transform: translate(-30%, 0);
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    transition: all 0s;
 }
 
 .btn-hover-new span {
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    transition: all 0.1s;
 }
 
 .btn-hover-new:hover{
-	color: #ffffff;
-	background-color: #333333;
+	color: #333333;
+	background-color: #ffffff;
 }
 .btn-hover-new:hover > span {
     opacity: 0;
